@@ -1,0 +1,30 @@
+# Ignora file video grandi
+frontend/public/videos/
+videos/
+*.mp4
+*.mov
+*.avi
+*.mkv
+
+# Node modules
+node_modules/
+**/node_modules/
+
+# Output di build
+dist/
+build/
+
+# Dati temporanei
+*.log
+*.tmp
+
+# Ambiente
+.env
+.env.local
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
